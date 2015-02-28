@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imooc.guessmusic.MainActivity"
+    tools:ignore="MergeRootFrame" >
+        <!-- Frame 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Top bar -->
+        <include layout="@layout/top_bar" />
+
+        <!-- 唱片 -->
+        <include layout="@layout/pan_layout" />"
+
+		<!-- 文字 -->
+        <include layout="@layout/name_select" />"
+
+    </LinearLayout>
+    
+        <!-- 浮动按钮 -->
+    <include layout="@layout/float_buttons" />
+    
+    <include layout="@layout/answer_right" />"
+    
+</FrameLayout>
+
