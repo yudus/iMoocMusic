@@ -1,5 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/pass_view"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:background="#cc000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/index_medal" />
+        
+        <TextView
+            android:id="@+id/txt_main_achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您已击败"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
-</animation-list>
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="答案正确"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+    
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp" >
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_level_title" />
+        
+        <TextView
+            android:id="@+id/text_current_stage_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/text_current_song_name_passs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="海贼王"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="奖励："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_coin_icon" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" x "
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        
+    </LinearLayout>
+    
+    <ImageButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/next_button_icon" />
+        
+   	<ImageButton
+   	    android:id="@+id/btn_share"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:background="@drawable/weixin_button_icon" />
+        
+    
+</LinearLayout>
+
+

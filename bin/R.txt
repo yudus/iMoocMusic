@@ -334,7 +334,7 @@ int id action_context_bar 0x7f05001d
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
-int id action_settings 0x7f05004e
+int id action_settings 0x7f05004f
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
@@ -398,6 +398,7 @@ int id text_current_stage 0x7f050042
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
 int id txt_bar_coins 0x7f05004d
+int id txt_main_achievement 0x7f05004e
 int id up 0x7f050021
 int id useLogo 0x7f050003
 int id withText 0x7f05000c
